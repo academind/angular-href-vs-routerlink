@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+}
+
+.nav {
+  margin: 2rem;
+}
+
+.nav p {
+  background: grey;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.page-content {
+  margin: 2rem;
+}
+
+.page-content p {
+  background: #521751;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+
+

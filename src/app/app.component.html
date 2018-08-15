@@ -1,0 +1,25 @@
+<div class="nav">
+  <p>Using "href"</p>
+  <ul>
+    <li><a href="/" (click)="onClick($event)">Home</a></li>
+    <li><a href="/products" (click)="onClick($event)">Products</a></li>
+    <li><a href="/about" (click)="onClick($event)">About</a></li>
+  </ul>
+</div>
+<hr>
+<div class="nav">
+  <p>Using "routerLink"</p>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/products">Products</a></li>
+    <li><a routerLink="/about">About</a></li>
+  </ul>
+</div>
+<hr>
+<div class="page-content">
+  <p>Page Content</p>
+  <router-outlet></router-outlet>
+  <hr>
+  <p>Input Field</p>
+  <app-input></app-input>
+</div>
